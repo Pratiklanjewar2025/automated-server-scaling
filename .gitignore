@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# SSH Keys
+*.pem
+*.key
+projectkey
+
+# Secrets
+.env
+
+# Runtime Generated Files
+ip_save.txt
+instance_count.txt
+
+# Python
+__pycache__/
+*.pyc
